@@ -48,11 +48,11 @@
 <div class="footer-sub">
 	<div class="container" id="legal">
 		<div class="row">
-			<div class="col-sm-8 text-white mtext-center">
-				&copy; 2018 <a class="text-gr" href="#">Harris Web Works <span class="navbar-brand2"> Hostings</span></a>. Design
-				by <a href="index.php" target="_blank">Harris Web Works</a>.
+			<div class="col-sm-8 text-dark mtext-center">
+				&copy; <script>document.write(new Date().getFullYear())</script> 
+				<a class="text-dark" href="#">Harris Web Works </a>
 			</div>
-			<div class="col-sm-4 text-white mtext-center">
+			<!-- <div class="col-sm-4 text-white mtext-center">
 				<table>
 					<tr>
 						<td><a class="text-white" href="#!">Legal</a></td>
@@ -61,7 +61,7 @@
 
 					</tr>
 				</table>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>

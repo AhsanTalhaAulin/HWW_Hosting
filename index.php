@@ -18,7 +18,6 @@
 
 
 	<?php
-	session_start();
 	include_once 'header.php';
 	?>
 
@@ -39,13 +38,12 @@
 
 	<div class="service-section-index">
 		<?php
-		session_start();
+
 		include 'service_section.php';
 		?>
 	</div>
 
 	<?php
-	session_start();
 	include 'hosting-plan_section.php';
 	?>
 
@@ -243,7 +241,6 @@
 
 
 	<?php
-	session_start();
 	include_once 'footer.php';
 	?>
 
